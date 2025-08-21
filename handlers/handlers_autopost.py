@@ -140,9 +140,9 @@ async def send_auto_message(message_info: dict):
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
-                        await pin_message(user_id, sent_message.message_id)
                         count_in += 1
                         await asyncio.sleep(0.1)
+                        await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
                         logger.error(f"Ошибка отправки in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
@@ -155,9 +155,9 @@ async def send_auto_message(message_info: dict):
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
-                        await pin_message(user_id, sent_message.message_id)
-                        count_out += 1
+                        count_in += 1
                         await asyncio.sleep(0.1)
+                        await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
                         logger.error(f"Ошибка отправки out_chanel {user_id}: {e}")
 
@@ -173,9 +173,9 @@ async def send_auto_message(message_info: dict):
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
-                        await pin_message(user_id, sent_message.message_id)
                         count_in += 1
                         await asyncio.sleep(0.1)
+                        await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
                         logger.error(f"Ошибка отправки фото in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
@@ -188,9 +188,9 @@ async def send_auto_message(message_info: dict):
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
-                        await pin_message(user_id, sent_message.message_id)
-                        count_out += 1
+                        count_in += 1
                         await asyncio.sleep(0.1)
+                        await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
                         logger.error(f"Ошибка отправки фото out_chanel {user_id}: {e}")
 
@@ -209,9 +209,9 @@ async def send_auto_message(message_info: dict):
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
                         sent_message = await bot.send_video_note(user_id, media_id)
-                        await pin_message(user_id, sent_message.message_id)
                         count_in += 1
                         await asyncio.sleep(0.1)
+                        await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
                         logger.error(f"Ошибка отправки видео in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
@@ -227,9 +227,9 @@ async def send_auto_message(message_info: dict):
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
                         sent_message = await bot.send_video_note(user_id, media_id)
-                        await pin_message(user_id, sent_message.message_id)
-                        count_out += 1
+                        count_in += 1
                         await asyncio.sleep(0.1)
+                        await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
                         logger.error(f"Ошибка отправки видео out_chanel {user_id}: {e}")
         elif msg_type == 'media_group':

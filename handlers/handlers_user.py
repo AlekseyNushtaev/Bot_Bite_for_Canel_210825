@@ -1,6 +1,5 @@
 import asyncio
 import datetime
-from pprint import pprint
 
 import aiohttp
 
@@ -13,7 +12,7 @@ from moviepy import VideoFileClip
 
 from bot import bot
 from config import LOCALIZATION_LANG, REWARD_PER_VIEW, SPONSOR_CHANNEL_LINK, MAX_VIDEOS_PER_CYCLE, COOLDOWN_DAYS, \
-    NUMBER_GIFT_7_8, BONUS_BETWEEN_7_AND_8, NUMBER_GIFT_17_18, BONUS_AFTER_17, MIN_WITHDRAWAL, POSTBACK_START, TIMEZONE
+    NUMBER_GIFT_7_8, NUMBER_GIFT_17_18, BONUS_AFTER_17, MIN_WITHDRAWAL, POSTBACK_START, TIMEZONE
 from db.data import video_dct
 from db.utils import user_exists, add_user, update_messages_to_del, delete_messages, get_user_by_id, update_user, \
     update_user_blocked, update_user_unblocked, add_user_without_start

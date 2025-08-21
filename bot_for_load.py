@@ -4,6 +4,8 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 
+from config import TG_TOKEN
+
 # Списки ключей из оригинального файла
 VIDEO_DCT_KEYS = [
     'gif_start', 'vivod', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
@@ -100,7 +102,7 @@ post_dict_out = {post_dict_out}
     await state.clear()
 
 async def main():
-    bot = Bot(token="")
+    bot = Bot(token=TG_TOKEN)
     dp = Dispatcher()
 
     dp.message.register(start_collection, Command("start"))

@@ -1,4 +1,5 @@
 from config import SPONSOR_CHANNEL_LINK
+from db.data import post_dict_in, post_dict_out
 
 dct_autopost = {
         1: [
@@ -6,7 +7,7 @@ dct_autopost = {
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF52il9y9KySMFt0wv58CoUKr1OMUoAAKF-jEbs8IxSV93XFZWgQYbAQADAgADcwADNgQ',
+                'media_id': post_dict_in['1'],
                 'text': {
                     'ru': lambda x: f'''
 🔥 Большинство людей проживает жизнь в ожидании «идеального момента». Они думают: «Сначала заработаю больше, потом начну инвестировать». Но правда в том, что времени больше не станет. ⏳
@@ -66,7 +67,7 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
                 'time': '12:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHXGimvSh49CGp86LVvCPnO-wQc4YQAAL4_jEbs8IxSYkucu0fZotfAQADAgADcwADNgQ',
+                'media_id': post_dict_out['1'],
                 'text': {
                     'ru': lambda x: f'''
 🌟 Представь жизнь, в которой работа не отнимает у тебя всё время и силы, а наоборот — дарит свободу.
@@ -149,7 +150,7 @@ Auf dem Kanal gibt es bereits einen Beitrag, dass dieser Betrag verlost wird –
                 'time': '17:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHXWimvjPaxoyNdX3B0mVzni3pl3sfAAL5_jEbs8IxSTC4hFvHuw2rAQADAgADcwADNgQ',
+                'media_id': post_dict_out['1_2'],
                 'text': {
                     'ru': lambda x: f'''
 🔥 Первый день уже позади — и результаты впечатляют!
@@ -181,7 +182,7 @@ Denk daran: Wer früher anfängt, erzielt schneller Ergebnisse. Morgen könntest
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF6mil_Kt61KSoznUT0vQvVzqMznx3AALg-jEbs8IxSWQ1_3O32zU2AQADAgADcwADNgQ',
+                'media_id': post_dict_in['2'],
                 'text': {
                     'ru': lambda x: f'''
 🚀 Мы живём в эпоху, где криптовалюта и искусственный интеллект меняют правила игры. Пока кто-то сомневается, другие уже умножают свои доходы с их помощью.
@@ -279,7 +280,7 @@ Heute wird ein neues Team aus 3 Personen gebildet. Und jeder, der diesem Team be
                 'time': '14:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHXmimvvwb4jpSBwVL5Uox5K1GYpTEAAL7_jEbs8IxSaDmkKGyaLHpAQADAgADcwADNgQ',
+                'media_id': post_dict_out['2'],
                 'text': {
                     'ru': lambda x: f'''
 🤖 Наш уникальный ИИ уже готов зарабатывать для вас!
@@ -351,7 +352,7 @@ Schreibe mir einfach, wofür du dieses Geld ausgeben möchtest! Bald werde ich d
                 'time': '18:30',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHX2imv64dgdu72sRqtNWQsC_4bCPXAAL-_jEbs8IxSQcGu_4WoPWVAQADAgADcwADNgQ',
+                'media_id': post_dict_out['2_1'],
                 'text': {
                     'ru': lambda x: f'''
 🤖 Легко ли использовать наш ИИ? Да!
@@ -420,7 +421,7 @@ Das Warten auf den „idealen Moment“ ist eine Falle, aus der man nicht entkom
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF62il_1DRgAu8YsX_GdFTGfyJY33bAAJV-zEbs8IxSefHcXE8R4Y-AQADAgADcwADNgQ',
+                'media_id': post_dict_in['3'],
                 'text': {
                     'ru': lambda x: f'''
 🎯 Успех никогда не приходит случайно. Его получают только те, кто решается сделать первый шаг.
@@ -484,7 +485,7 @@ Und wo bist du durch diese Worte gelandet? Dort, wo du gestern warst.
                 'time': '12:30',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYGimwFr40ZuLPxvQbSXbRe7FF39KAAIN_zEbs8IxSdFiJ6l6KVmAAQADAgADcwADNgQ',
+                'media_id': post_dict_out['3'],
                 'text': {
                     'ru': lambda x: f'''
 🔥 Вчерашнее тестирование прошло успешно!
@@ -566,7 +567,7 @@ Wenn Sie bereit sind, die Angst zu überwinden und der Armut zu entfliehen – s
                 'time': '20:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYWimwSFQ90Iamlcs1vet_q1j-3MlAAIP_zEbs8IxSdkPncjp6ZrPAQADAgADcwADNgQ',
+                'media_id': post_dict_out['3_1'],
                 'text': {
                     'ru': lambda x: f'''
 ✅ 40.000 € ждут вас!
@@ -606,7 +607,7 @@ Verpasse nicht die Chance – handle gleich jetzt!
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF7Gil_-n3Hf_3t3aAgXPdNMYPVkDSAAJf-zEbs8IxSXKgik_SUS66AQADAgADcwADNgQ',
+                'media_id': post_dict_in['4'],
                 'text': {
                     'ru': lambda x: f'''
 💡 В мире всегда побеждают те, кто используют новые инструменты первыми.
@@ -666,7 +667,7 @@ Ich helfe dir, einen Schritt zu machen – schreib jetzt gleich.
                 'time': '18:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYmimweENNXju5PO8qcEZqlGXDth7AAIV_zEbs8IxSdRLeaY24hm9AQADAgADcwADNgQ',
+                'media_id': post_dict_out['4'],
                 'text': {
                     'ru': lambda x: f'''
 ПОЧЕМУ ВАШИ УСИЛИЯ НЕ ПРИНОСЯТ УСПЕХА? 🤔
@@ -736,7 +737,7 @@ Was wir geschaffen haben, ist eine echte Innovation, die Ihre Vorstellung von Ge
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF7WimAAF4gmdW2w7L1vdj8DGwficNfAACcPsxG7PCMUm4__knjc0gOAEAAwIAA3MAAzYE',
+                'media_id': post_dict_in['5'],
                 'text': {
                     'ru': lambda x: f'''
 💡 Как мыслят богатые и бедные об инвестициях?
@@ -801,7 +802,7 @@ Du wirst nicht nur zuschauen können, sondern tatsächlich in ein Spiel eintauch
                 'time': '12:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHXWimvjPaxoyNdX3B0mVzni3pl3sfAAL5_jEbs8IxSTC4hFvHuw2rAQADAgADcwADNgQ',
+                'media_id': post_dict_out['5'],
                 'text': {
                     'ru': lambda x: f'''
 ПОЧЕМУ МНОГИЕ ЛЮДИ ТАК И НЕ НАЧИНАЮТ ИНВЕСТИРОВАТЬ? 🤔
@@ -849,7 +850,7 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
                 'time': '20:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYGimwFr40ZuLPxvQbSXbRe7FF39KAAIN_zEbs8IxSdFiJ6l6KVmAAQADAgADcwADNgQ',
+                'media_id': post_dict_out['5_1'],
                 'text': {
                     'ru': lambda x: f'''
 🔥 Почему криптовалюта и искусственный интеллект — это шанс заработать быстро и уже сейчас?
@@ -895,7 +896,7 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF7mimAYh8LrsKmFIRZmbHOgw0MO7uAAKP-zEbs8IxSYgIq009JHcdAQADAgADcwADNgQ',
+                'media_id': post_dict_in['6'],
                 'text': {
                     'ru': lambda x: f'''
 💭 Разница между бедными и богатыми в мышлении.
@@ -959,7 +960,7 @@ Reiche entscheiden sich zu handeln.
                 'time': '13:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYmimweENNXju5PO8qcEZqlGXDth7AAIV_zEbs8IxSdRLeaY24hm9AQADAgADcwADNgQ',
+                'media_id': post_dict_out['6'],
                 'text': {
                     'ru': lambda x: f'''
 💡 Как мыслят богатые и бедные об инвестициях?
@@ -1032,7 +1033,7 @@ Deine Chance könnte der Gewinn sein! 🏆
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF72imCPRc54Gz-KwKfClnO3_XI_8oAALS-zEbs8IxSZrvdgAB1tsRFAEAAwIAA3MAAzYE',
+                'media_id': post_dict_in['7'],
                 'text': {
                     'ru': lambda x: f'''
 🔥 ФИНАЛЬНЫЙ ДЕНЬ!
@@ -1102,7 +1103,7 @@ Heute entscheidet sich, wer auf ein neues Level aufsteigt und wer dort bleibt, w
                 'time': '11:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHXmimvvwb4jpSBwVL5Uox5K1GYpTEAAL7_jEbs8IxSaDmkKGyaLHpAQADAgADcwADNgQ',
+                'media_id': post_dict_out['7'],
                 'text': {
                     'ru': lambda x: f'''
 🔥 ФИНАЛЬНЫЙ ДЕНЬ — ВРЕМЯ ПРИНЯТЬ РЕШЕНИЕ!
@@ -1134,10 +1135,10 @@ Wir haben alles bis ins kleinste Detail getestet. Ich habe das Ergebnis erhalten
                 'status': 'not_in_chanel',
                 'type': 'media_group',
                 'media_id': [
-                    'AgACAgIAAxkBAAIHZ2imxlMg0rm0F32N36m3Kxy2J2dSAAIp_zEbs8IxSfV3fIHlU7KQAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIHaGimxlg6B3-1cRUJbLrBZnauUinTAAIq_zEbs8IxSY7WXSkRQZXmAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIHaWimxmm3SV_e89FrWNtIbbqMRwubAAIr_zEbs8IxSX2vUZCSVQkRAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIHamimxm6vLYvoroanqgL1vHJH8aA4AAIs_zEbs8IxSSvbTPh-qrlxAQADAgADcwADNgQ'
+                    post_dict_out['7_1'],
+                    post_dict_out['7_2'],
+                    post_dict_out['7_3'],
+                    post_dict_out['7_4']
                 ],
                 'text': {
                     'ru': lambda x: f'''
@@ -1183,10 +1184,10 @@ Ich lasse dich nicht allein – ich werde dich persönlich an die Hand nehmen un
         ],
         8: [
             {
-                'time': '12:48',
+                'time': '10:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF8GimCaUoyfnhvqWKAroXKNkuEQTCAALf-zEbs8IxSYfqzwPGdNNuAQADAgADcwADNgQ',
+                'media_id': post_dict_in['8'],
                 'text': {
                     'ru': lambda x: f'''
 🌅 Утро наступило — пора действовать! ☕️
@@ -1214,7 +1215,7 @@ Heute beginnt ein besonderer Tag — ein Tag, der eure Zukunft verändern könnt
                 }
             },
             {
-                'time': '12:48',
+                'time': '11:00',
                 'status': 'in_chanel',
                 'type': 'text',
                 'media_id': '',
@@ -1260,11 +1261,11 @@ Merke dir: Erfolg kommt nicht zu den Klügsten oder den Stärksten – er kommt 
                 'status': 'in_chanel',
                 'type': 'media_group',
                 'media_id': [
-                    'AgACAgIAAxkBAAIF8WimCqHLgi9NbqtbO4lpfn1vjnHpAALq-zEbs8IxSWbF7Lw-QggsAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGH2imltBA5fgdjWsitk2xkXRXmFHbAAJo_jEbs8IxSRhr4VHUl2hoAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGIGimltWn9hJEtRQGghQoTYTCjgU3AAJp_jEbs8IxSfPN4pdF5_G2AQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGIWimlttIAfI7_1_ehC1bhsQiH6EdAAJq_jEbs8IxSY7r7tW96mZpAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGImimluHlzSrA_mKvAZ-JW_4YGzJfAAJr_jEbs8IxSb4rUeSN6-0WAQADAgADcwADNgQ'
+                    post_dict_in['8_1'],
+                    post_dict_in['8_2'],
+                    post_dict_in['8_3'],
+                    post_dict_in['8_4'],
+                    post_dict_in['8_5']
                 ],
                 'text': {
                     'ru': lambda x: f'''
@@ -1361,7 +1362,7 @@ Tausende von Menschen nutzen bereits die Möglichkeiten von KI und Kryptowährun
                 'time': '16:20',
                 'status': 'in_chanel',
                 'type': 'video_note',
-                'media_id': 'DQACAgIAAxkBAAIF8mimDBzdCzE0KCY7dkvdCIE8qlC8AAIMfAACnwiBSBbLa_o1RFdTNgQ',
+                'media_id': post_dict_in['8_6'],
                 'text': {
                     'ru': lambda x: f'''
 🎥 Первые видео-отзывы клиентов! 💬
@@ -1405,7 +1406,7 @@ Unsere Kunden beginnen, Ergebnisse zu erzielen – und teilen diese persönlich 
                 'time': '22:00',
                 'status': 'in_chanel',
                 'type': 'text',
-                'media_id': 'DQACAgIAAxkBAAIF8mimDBzdCzE0KCY7dkvdCIE8qlC8AAIMfAACnwiBSBbLa_o1RFdTNgQ',
+                'media_id': '',
                 'text': {
                     'ru': lambda x: f'''
 📈 Доход — 17 250 евро! 💶
@@ -1455,7 +1456,7 @@ Alles begann mit einem einfachen Schritt — dem Vertrauen in das System und der
                 'time': '10:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYGimwFr40ZuLPxvQbSXbRe7FF39KAAIN_zEbs8IxSdFiJ6l6KVmAAQADAgADcwADNgQ',
+                'media_id': post_dict_out['8'],
                 'text': {
                     'ru': lambda x: f'''
 🌅 Утро наступило — пора действовать! ☕️
@@ -1540,11 +1541,11 @@ Denk daran: Der Erfolg kommt nicht zu den Klügsten oder Stärksten — er kommt
                 'status': 'not_in_chanel',
                 'type': 'media_group',
                 'media_id': [
-                    'AgACAgIAAxkBAAIF8WimCqHLgi9NbqtbO4lpfn1vjnHpAALq-zEbs8IxSWbF7Lw-QggsAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGH2imltBA5fgdjWsitk2xkXRXmFHbAAJo_jEbs8IxSRhr4VHUl2hoAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGIGimltWn9hJEtRQGghQoTYTCjgU3AAJp_jEbs8IxSfPN4pdF5_G2AQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGIWimlttIAfI7_1_ehC1bhsQiH6EdAAJq_jEbs8IxSY7r7tW96mZpAQADAgADcwADNgQ',
-                    'AgACAgIAAxkBAAIGImimluHlzSrA_mKvAZ-JW_4YGzJfAAJr_jEbs8IxSb4rUeSN6-0WAQADAgADcwADNgQ'
+                    post_dict_out['8_1'],
+                    post_dict_out['8_2'],
+                    post_dict_out['8_3'],
+                    post_dict_out['8_4'],
+                    post_dict_out['8_5']
                 ],
                 'text': {
                     'ru': lambda x: f'''
@@ -1573,7 +1574,7 @@ Jeder Tag des Zögerns = verpasste Gelegenheit.
                 }
             },
             {
-                'time': '12:48',
+                'time': '16:00',
                 'status': 'not_in_chanel',
                 'type': 'text',
                 'media_id': '',
@@ -1641,7 +1642,7 @@ Tausende von Menschen nutzen bereits die Möglichkeiten von KI und Kryptowährun
                 'time': '16:20',
                 'status': 'not_in_chanel',
                 'type': 'video_note',
-                'media_id': 'DQACAgIAAxkBAAIF8mimDBzdCzE0KCY7dkvdCIE8qlC8AAIMfAACnwiBSBbLa_o1RFdTNgQ',
+                'media_id': post_dict_out['8_6'],
                 'text': {
                     'ru': lambda x: f'''
 🎥 Первые видео-отзывы клиентов! 💬
@@ -1685,7 +1686,7 @@ Unsere Kunden beginnen, Ergebnisse zu erzielen – und teilen diese persönlich 
                 'time': '22:00',
                 'status': 'not_in_chanel',
                 'type': 'text',
-                'media_id': 'DQACAgIAAxkBAAIF8mimDBzdCzE0KCY7dkvdCIE8qlC8AAIMfAACnwiBSBbLa_o1RFdTNgQ',
+                'media_id': '',
                 'text': {
                     'ru': lambda x: f'''
 📈 Доход — 17 250 евро! 💶
@@ -1737,7 +1738,7 @@ Alles begann mit einem einfachen Schritt — dem Vertrauen in das System und der
                 'time': '10:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF82imDa3m_mTMJl8yvkPmi5r1AfS9AAIK_DEbs8IxSfg5Pia6rdQRAQADAgADcwADNgQ',
+                'media_id': post_dict_in['9'],
                 'text': {
                     'ru': lambda x: f'''
 🌅 Новое утро — пора делать деньги! 💸
@@ -1868,7 +1869,7 @@ Ich helfe Ihnen, diesen Weg schneller zu gehen, denn ich kenne alle Schritte und
                 'time': '10:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYWimwSFQ90Iamlcs1vet_q1j-3MlAAIP_zEbs8IxSdkPncjp6ZrPAQADAgADcwADNgQ',
+                'media_id': post_dict_out['9'],
                 'text': {
                     'ru': lambda x: f'''
 🌅 Новое утро — пора делать деньги! 💸
@@ -2001,7 +2002,7 @@ Ich helfe Ihnen, diesen Weg schneller zu gehen, denn ich kenne alle Schritte und
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF9GimDmP73B1tebbEKDbzPlZt3u_RAAIP_DEbs8IxSQld3a7pvcp8AQADAgADcwADNgQ',
+                'media_id': post_dict_in['10'],
                 'text': {
                     'ru': lambda x: f'''
 💡 Как бедные становятся богатыми?
@@ -2088,7 +2089,7 @@ Du wirst dein Geld erhalten, du wirst das Ergebnis sehen, und vielleicht wird de
                 'time': '12:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHYmimweENNXju5PO8qcEZqlGXDth7AAIV_zEbs8IxSdRLeaY24hm9AQADAgADcwADNgQ',
+                'media_id': post_dict_out['10'],
                 'text': {
                     'ru': lambda x: f'''
 💡 Как бедные становятся богатыми?
@@ -2177,7 +2178,7 @@ Du wirst dein Geld erhalten, du wirst das Ergebnis sehen, und vielleicht wird de
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF9WimDtSlTZ68SnsTKH3zsRnpN4rKAAIo_DEbs8IxSbSJ-hWTrwnDAQADAgADcwADNgQ',
+                'media_id': post_dict_in['11'],
                 'text': {
                     'ru': lambda x: f'''
 💬 Люди продолжают делиться своими заработками — это феноменально! 💸
@@ -2242,7 +2243,7 @@ Dein erstes Geld könnte schon heute kommen. 📩
                 'time': '12:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHbmimynBUnQZBGf355TGXqG61UByqAAJL_zEbs8IxSRnjIR8NQrpSAQADAgADcwADNgQ',
+                'media_id': post_dict_out['11'],
                 'text': {
                     'ru': lambda x: f'''
 💬 Люди продолжают делиться своими заработками — это феноменально! 💸
@@ -2309,7 +2310,7 @@ Dein erstes Geld könnte schon heute kommen. 📩
                 'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIF7mimAYh8LrsKmFIRZmbHOgw0MO7uAAKP-zEbs8IxSYgIq009JHcdAQADAgADcwADNgQ',
+                'media_id': post_dict_in['12'],
                 'text': {
                     'ru': lambda x: f'''
 ⏰ Нет времени? Подумай: ты тратишь часы на работу, которая никогда не сделает тебя богатым.
@@ -2380,7 +2381,7 @@ Dann schau dir die Dutzenden von Menschen an, die bereits verdienen und Bewertun
                 'time': '12:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
-                'media_id': 'AgACAgIAAxkBAAIHXmimvvwb4jpSBwVL5Uox5K1GYpTEAAL7_jEbs8IxSaDmkKGyaLHpAQADAgADcwADNgQ',
+                'media_id': post_dict_out['12'],
                 'text': {
                     'ru': lambda x: f'''
 ⏰ Нет времени? Подумай: ты тратишь часы на работу, которая никогда не сделает тебя богатым.

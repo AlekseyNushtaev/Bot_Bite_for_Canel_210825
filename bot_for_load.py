@@ -68,6 +68,15 @@ async def handle_media(message: types.Message, state: FSMContext):
         else:
             await message.answer(f"Получено {current_index}/71 файлов")
 
+def format_dict(dct, keys):
+    """Форматирует словарь в стиле data.py"""
+    lines = []
+    for key in keys:
+        if isinstance(key, str):
+            lines.append(f"    '{key}': '{dct[key]}',")
+        else:
+            lines.append(f"    {key}: '{dct[key]}',")
+    return '{\n' + '\n'.join(lines) + '\n}'
 
 async def process_media(message: types.Message, state: FSMContext):
     data = await state.get_data()
@@ -86,12 +95,17 @@ async def process_media(message: types.Message, state: FSMContext):
     for i, key in enumerate(POST_DICT_OUT_KEYS):
         post_dict_out[key] = media_list[45 + i]
 
+    # Форматируем словари
+    video_dct_str = format_dict(video_dct, VIDEO_DCT_KEYS)
+    post_dict_in_str = format_dict(post_dict_in, POST_DICT_IN_KEYS)
+    post_dict_out_str = format_dict(post_dict_out, POST_DICT_OUT_KEYS)
+
     # Формируем содержимое файла
-    file_content = f"""video_dct = {video_dct}
+    file_content = f"""video_dct = {video_dct_str}
 
-post_dict_in = {post_dict_in}
+post_dict_in = {post_dict_in_str}
 
-post_dict_out = {post_dict_out}
+post_dict_out = {post_dict_out_str}
 """
 
     # Сохраняем файл

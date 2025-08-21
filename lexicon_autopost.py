@@ -3,7 +3,7 @@ from config import SPONSOR_CHANNEL_LINK
 dct_autopost = {
         1: [
             {
-                'time': '15:53',
+                'time': '12:00',
                 'status': 'in_chanel',
                 'type': 'photo',
                 'media_id': 'AgACAgIAAxkBAAIF52il9y9KySMFt0wv58CoUKr1OMUoAAKF-jEbs8IxSV93XFZWgQYbAQADAgADcwADNgQ',
@@ -35,7 +35,7 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
                 }
             },
             {
-                'time': '15:54',
+                'time': '18:00',
                 'status': 'in_chanel',
                 'type': 'text',
                 'media_id': '',
@@ -63,7 +63,7 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
                 }
             },
             {
-                'time': '15:53',
+                'time': '12:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
                 'media_id': 'AgACAgIAAxkBAAIHXGimvSh49CGp86LVvCPnO-wQc4YQAAL4_jEbs8IxSYkucu0fZotfAQADAgADcwADNgQ',
@@ -103,7 +103,7 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
                 }
             },
             {
-                'time': '15:53',
+                'time': '14:00',
                 'status': 'not_in_chanel',
                 'type': 'text',
                 'media_id': '',
@@ -146,7 +146,7 @@ Auf dem Kanal gibt es bereits einen Beitrag, dass dieser Betrag verlost wird –
                 }
             },
 {
-                'time': '15:54',
+                'time': '17:00',
                 'status': 'not_in_chanel',
                 'type': 'photo',
                 'media_id': 'AgACAgIAAxkBAAIHXWimvjPaxoyNdX3B0mVzni3pl3sfAAL5_jEbs8IxSTC4hFvHuw2rAQADAgADcwADNgQ',

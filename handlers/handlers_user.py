@@ -56,7 +56,6 @@ async def start_command(message: types.Message, command: CommandObject):
 
     else:
         start_arg = command.args
-        print(command.args)
         if start_arg:
             arg = command.args
         else:
@@ -95,7 +94,6 @@ async def look_video(callback: types.CallbackQuery):
                                  callback.from_user.last_name)
     await delete_messages(callback.from_user.id)
     user_dct = await get_user_by_id(callback.from_user.id)
-    pprint(user_dct)
     if callback.data == 'look_video_first':
         text = '⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️0%...\n' + lexicon_dct[LOCALIZATION_LANG]['preload_text']
         first_message = await callback.message.answer(text)
@@ -307,12 +305,12 @@ async def check_bonus(callback: types.CallbackQuery):
                                  callback.from_user.username,
                                  callback.from_user.first_name,
                                  callback.from_user.last_name)
-    user_id = callback.from_user.id
-    user_dct = await get_user_by_id(user_id)
-    user_dct['balance'] += BONUS_BETWEEN_7_AND_8
+    # user_id = callback.from_user.id
+    # user_dct = await get_user_by_id(user_id)
+    # user_dct['balance'] += BONUS_BETWEEN_7_AND_8
     await callback.message.edit_text(text=lexicon_dct[LOCALIZATION_LANG]['gift_after_7_text'],
                                      reply_markup=create_kb(1, look_video=lexicon_dct[LOCALIZATION_LANG]['back_button']))
-    await update_user(user_dct)
+    # await update_user(user_dct)
 
 
 @router.callback_query(F.data == 'profil')

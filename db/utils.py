@@ -201,23 +201,22 @@ async def get_stats(period: str) -> dict:
 
 async def get_all_users_unblock(status: str) -> list:
     """
-    Возвращает список ID пользователей в зависимости от статуса подписки
+    Возвращает список словарей {user_id: sub_id} в зависимости от статуса подписки.
     :param status: 'users_1' - подписанные, 'users_2' - не подписанные, 'users_3' - все
-    :return: list[int] - список ID пользователей
+    :return: list[dict] - список словарей {user_id: sub_id}
     """
     async with Session() as session:
-        # Базовый запрос для не заблокированных пользователей
-        query = select(User.user_id).where(User.user_is_block == False)
+        # Выбираем нужные поля: user_id и sub_id (замените sub_id на актуальное поле)
+        query = select(User.user_id, User.sub_id).where(User.user_is_block == False)
 
-        # Добавляем фильтр по статусу подписки
         if status == 'users_1':
             query = query.where(User.in_chanel == True)
         elif status == 'users_2':
             query = query.where(User.in_chanel == False)
 
-        # Выполняем запрос
         result = await session.execute(query)
-        return [row[0] for row in result.all()]
+        # Формируем список словарей
+        return [{"user_id": row.user_id, "sub_id": row.sub_id} for row in result.all()]
 
 
 def format_time_remaining(target_datetime):

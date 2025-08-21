@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ChatMember
 
 from bot import bot
 from config import SPONSOR_CHANNEL_ID, LOCALIZATION_LANG, NUMBER_GIFT_7_8, SPONSOR_CHANNEL_LINK, POSTBACK_SUBSCRIBE, \
-    TIMEZONE
+    TIMEZONE, BONUS_BETWEEN_7_AND_8
 from db.utils import get_user_by_id, delete_messages, update_user
 from keyboard import create_kb
 from lexicon import lexicon_dct
@@ -33,6 +33,7 @@ async def handle_chat_member_update(update: ChatMemberUpdated):
         user_dct['status'] = 'in_chanel'
         user_dct['time_chanel_in'] = datetime.datetime.now(TIMEZONE)
         if user_dct['like_counter'] == NUMBER_GIFT_7_8:
+            user_dct['balance'] += BONUS_BETWEEN_7_AND_8
             sent_message = await bot.send_message(chat_id=user_id,
                                                   text=lexicon_dct[LOCALIZATION_LANG]['text_chanel_in'],
                                                   reply_markup=create_kb(1,

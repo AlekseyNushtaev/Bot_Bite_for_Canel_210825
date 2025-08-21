@@ -102,7 +102,7 @@ async def check_text_yes_1(cb: types.CallbackQuery, state: FSMContext):
     dct = await state.get_data()
     users = await get_all_users_unblock(dct['status'])
     count = 0
-    for user_id in users:
+    for user_id in users.keys():
         try:
             sent_message = await bot.send_message(user_id, text=dct['text'])
             await pin_message(user_id, sent_message.message_id)
@@ -147,7 +147,7 @@ async def check_text_yes_2(cb: types.CallbackQuery, state: FSMContext):
     dct = await state.get_data()
     users = await get_all_users_unblock(dct['status'])
     count = 0
-    for user_id in users:
+    for user_id in users.keys():
         try:
             sent_message = await bot.send_message(user_id, text=dct['text'], reply_markup=kb_button(dct['button_text'], dct['button_url']))
             await pin_message(user_id, sent_message.message_id)
@@ -198,7 +198,7 @@ async def check_photo_yes_1(cb: types.CallbackQuery, state: FSMContext):
     dct = await state.get_data()
     users = await get_all_users_unblock(dct['status'])
     count = 0
-    for user_id in users:
+    for user_id in users.keys():
         try:
             if dct.get('caption'):
                 sent_message = await bot.send_photo(user_id, photo=dct['photo_id'], caption=dct['caption'])
@@ -250,7 +250,7 @@ async def check_photo_yes_2(cb: types.CallbackQuery, state: FSMContext):
     dct = await state.get_data()
     users = await get_all_users_unblock(dct['status'])
     count = 0
-    for user_id in users:
+    for user_id in users.keys():
         try:
             if dct.get('caption'):
                 sent_message = await bot.send_photo(user_id, photo=dct['photo_id'], caption=dct['caption'], reply_markup=kb_button(dct['button_text'], dct['button_url']))
@@ -315,7 +315,7 @@ async def check_video_yes_1(cb: types.CallbackQuery, state: FSMContext):
     dct = await state.get_data()
     users = await get_all_users_unblock(dct['status'])
     count = 0
-    for user_id in users:
+    for user_id in users.keys():
         try:
             if dct.get('caption'):
                 sent_message = await bot.send_video(user_id, video=dct['video_id'], caption=dct['caption'])
@@ -367,7 +367,7 @@ async def check_video_yes_2(cb: types.CallbackQuery, state: FSMContext):
     dct = await state.get_data()
     users = await get_all_users_unblock(dct['status'])
     count = 0
-    for user_id in users:
+    for user_id in users.keys():
         try:
             if dct.get('caption'):
                 sent_message = await bot.send_video(user_id, video=dct['video_id'], caption=dct['caption'], reply_markup=kb_button(dct['button_text'], dct['button_url']))

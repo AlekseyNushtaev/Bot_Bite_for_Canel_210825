@@ -116,15 +116,13 @@ async def auto_push_process():
 
 
 async def send_auto_message(message_info: dict):
-    keyboard = kb_button('✅ Mein Kanal', SPONSOR_CHANNEL_LINK.split('?')[0])
-    msg_type = message_info['type']
-    media_id = message_info['media_id']
-    status = message_info['status']
-    text = message_info['text'][LOCALIZATION_LANG]  # Используем русскую версию
-
     # Получаем пользователей
     users_in = await get_all_users_unblock('users_1')
     users_out = await get_all_users_unblock('users_2')
+
+    msg_type = message_info['type']
+    media_id = message_info['media_id']
+    status = message_info['status']
 
     count_in = 0
     count_out = 0
@@ -133,10 +131,14 @@ async def send_auto_message(message_info: dict):
         if msg_type == 'text':
             # Рассылка текстового сообщения
             if status == 'in_chanel':
-                for user_id in users_in:
+                for user_id in users_in.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_in += 1
@@ -144,10 +146,14 @@ async def send_auto_message(message_info: dict):
                     except Exception as e:
                         logger.error(f"Ошибка отправки in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
-                for user_id in users_out:
+                for user_id in users_out.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_out += 1
@@ -158,10 +164,14 @@ async def send_auto_message(message_info: dict):
         elif msg_type == 'photo':
             # Рассылка фото с текстом
             if status == 'in_chanel':
-                for user_id in users_in:
+                for user_id in users_in.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_in += 1
@@ -169,10 +179,14 @@ async def send_auto_message(message_info: dict):
                     except Exception as e:
                         logger.error(f"Ошибка отправки фото in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
-                for user_id in users_out:
+                for user_id in users_out.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_out += 1
@@ -183,10 +197,14 @@ async def send_auto_message(message_info: dict):
         elif msg_type == 'video_note':
             # Рассылка видео-сообщения (сначала текст, потом видео)
             if status == 'in_chanel':
-                for user_id in users_in:
+                for user_id in users_in.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
@@ -197,10 +215,14 @@ async def send_auto_message(message_info: dict):
                     except Exception as e:
                         logger.error(f"Ошибка отправки видео in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
-                for user_id in users_out:
+                for user_id in users_out.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
@@ -213,10 +235,14 @@ async def send_auto_message(message_info: dict):
         elif msg_type == 'media_group':
             # Рассылка медиагруппы
             if status == 'in_chanel':
-                for user_id in users_in:
+                for user_id in users_in.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         media_group = [
                             InputMediaPhoto(
                                 media=media_id[0],
@@ -237,15 +263,20 @@ async def send_auto_message(message_info: dict):
                     except Exception as e:
                         logger.error(f"Ошибка отправки видео in_chanel {user_id}: {e}")
             if status == 'not_in_chanel':
-                for user_id in users_out:
+                for user_id in users_out.keys():
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
+                        keyboard = kb_button(
+                            '✅ Mein Kanal',
+                            SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
+                        text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         media_group = [
                             InputMediaPhoto(
                                 media=media_id[0],
                                 caption=text,
-                                parse_mode='HTML'
+                                parse_mode='HTML',
+                                reply_markup=keyboard
                             )
                         ]
                         # Добавляем остальные фото без подписи

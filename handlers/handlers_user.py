@@ -134,6 +134,9 @@ async def look_video(callback: types.CallbackQuery):
     if user_dct['like_counter'] > 10 and not user_dct['in_chanel']:
         if not user_dct['time_stop']:
             user_dct['time_stop'] = datetime.datetime.now(TIMEZONE) + datetime.timedelta(days=COOLDOWN_DAYS)
+        time_stop = user_dct['time_stop']
+        if time_stop.tzinfo is None:
+            time_stop = time_stop.replace(tzinfo=TIMEZONE)
         if datetime.datetime.now(TIMEZONE) > user_dct['time_stop']:
             sent_message = await callback.message.answer(
                 text=lexicon_dct[LOCALIZATION_LANG]['no_video_text'],
@@ -159,7 +162,10 @@ async def look_video(callback: types.CallbackQuery):
     elif user_dct['like_counter'] > MAX_VIDEOS_PER_CYCLE:
         if not user_dct['time_stop']:
             user_dct['time_stop'] = datetime.datetime.now(TIMEZONE) + datetime.timedelta(days=COOLDOWN_DAYS)
-        if datetime.datetime.now(TIMEZONE) > user_dct['time_stop']:
+        time_stop = user_dct['time_stop']
+        if time_stop.tzinfo is None:
+            time_stop = time_stop.replace(tzinfo=TIMEZONE)
+        if datetime.datetime.now(TIMEZONE) > time_stop:
             sent_message = await callback.message.answer(
                 text=lexicon_dct[LOCALIZATION_LANG]['no_video_text'],
                 reply_markup=create_kb(1, back_to_main=lexicon_dct[LOCALIZATION_LANG]['main_menu_button']))

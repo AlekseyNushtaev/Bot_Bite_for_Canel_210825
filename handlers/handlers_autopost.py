@@ -7,8 +7,9 @@ from aiogram.filters import Command
 from aiogram.types import InputMediaPhoto
 
 from bot import bot
-from config import ADMIN_IDS, AUTO_PUSH_RUNNING, LOCALIZATION_LANG, TIMEZONE, AUTO_PUSH_DAY
+from config import ADMIN_IDS, AUTO_PUSH_RUNNING, LOCALIZATION_LANG, TIMEZONE, AUTO_PUSH_DAY, SPONSOR_CHANNEL_LINK
 from db.utils import get_all_users_unblock, pin_message
+from keyboard import kb_button
 from lexicon_autopost import dct_autopost
 
 router = Router()
@@ -115,6 +116,7 @@ async def auto_push_process():
 
 
 async def send_auto_message(message_info: dict):
+    keyboard = kb_button('✅ Mein Kanal', SPONSOR_CHANNEL_LINK.split('?')[0])
     msg_type = message_info['type']
     media_id = message_info['media_id']
     status = message_info['status']
@@ -135,7 +137,7 @@ async def send_auto_message(message_info: dict):
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
-                        sent_message = await bot.send_message(user_id, text)
+                        sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_in += 1
                         await asyncio.sleep(0.1)
@@ -146,7 +148,7 @@ async def send_auto_message(message_info: dict):
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
-                        sent_message = await bot.send_message(user_id, text)
+                        sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_out += 1
                         await asyncio.sleep(0.1)
@@ -160,7 +162,7 @@ async def send_auto_message(message_info: dict):
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
-                        sent_message = await bot.send_photo(user_id, media_id, caption=text)
+                        sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_in += 1
                         await asyncio.sleep(0.1)
@@ -171,7 +173,7 @@ async def send_auto_message(message_info: dict):
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
-                        sent_message = await bot.send_photo(user_id, media_id, caption=text)
+                        sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         count_out += 1
                         await asyncio.sleep(0.1)
@@ -185,7 +187,7 @@ async def send_auto_message(message_info: dict):
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
-                        sent_message = await bot.send_message(user_id, text)
+                        sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
                         sent_message = await bot.send_video_note(user_id, media_id)
@@ -199,7 +201,7 @@ async def send_auto_message(message_info: dict):
                     if not AUTO_PUSH_RUNNING[0]:
                         break
                     try:
-                        sent_message = await bot.send_message(user_id, text)
+                        sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
                         sent_message = await bot.send_video_note(user_id, media_id)
@@ -218,7 +220,9 @@ async def send_auto_message(message_info: dict):
                         media_group = [
                             InputMediaPhoto(
                                 media=media_id[0],
-                                caption=text
+                                caption=text,
+                                parse_mode='HTML',
+                                reply_markup=keyboard
                             )
                         ]
                         # Добавляем остальные фото без подписи
@@ -240,7 +244,8 @@ async def send_auto_message(message_info: dict):
                         media_group = [
                             InputMediaPhoto(
                                 media=media_id[0],
-                                caption=text
+                                caption=text,
+                                parse_mode='HTML'
                             )
                         ]
                         # Добавляем остальные фото без подписи
@@ -250,7 +255,7 @@ async def send_auto_message(message_info: dict):
                         # Отправляем медиагруппу
                         sent_message = await bot.send_media_group(chat_id=user_id, media=media_group)
 
-                        count_in += 1
+                        count_out += 1
                         await asyncio.sleep(0.1)
                     except Exception as e:
                         logger.error(f"Ошибка отправки видео out_chanel {user_id}: {e}")

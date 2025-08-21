@@ -3,7 +3,7 @@ from config import SPONSOR_CHANNEL_LINK
 dct_autopost = {
         1: [
             {
-                'time': '12:00',
+                'time': '15:53',
                 'status': 'in_chanel',
                 'type': 'photo',
                 'media_id': 'AgACAgIAAxkBAAIF52il9y9KySMFt0wv58CoUKr1OMUoAAKF-jEbs8IxSV93XFZWgQYbAQADAgADcwADNgQ',
@@ -16,9 +16,9 @@ dct_autopost = {
 
 🚀 Хочешь начать свой путь к результатам? Напиши мне в личные сообщения — и я покажу, как действовать правильно.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Die meisten Menschen leben ihr Leben in der Erwartung des „idealen Moments“. Sie denken: „Zuerst verdiene ich mehr, dann fange ich an zu investieren.“ Aber die Wahrheit ist, dass es nicht mehr Zeit geben wird. ⏳
@@ -28,15 +28,14 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
 
 🚀 Möchtest du deinen Weg zu Ergebnissen beginnen? Schreib mir eine private Nachricht — und ich zeige dir, wie du richtig handelst.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
             {
-                'time': '18:00',
+                'time': '15:54',
                 'status': 'in_chanel',
                 'type': 'text',
                 'media_id': '',
@@ -47,10 +46,9 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
 ✅ Действовать — значит расти и выигрывать.
 👉 Напиши мне прямо сейчас, и я дам тебе первый инструмент для роста!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💡 Merke dir eine einfache Wahrheit: Reiche investieren, um noch reicher zu werden, Arme warten und verlieren Jahre.  
@@ -58,15 +56,14 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
 ✅ Handeln bedeutet, zu wachsen und zu gewinnen.  
 👉 Schreib mir jetzt sofort, und ich gebe dir das erste Werkzeug für dein Wachstum!  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
             {
-                'time': '12:00',
+                'time': '15:53',
                 'status': 'not_in_chanel',
                 'type': 'photo',
                 'media_id': 'AgACAgIAAxkBAAIHXGimvSh49CGp86LVvCPnO-wQc4YQAAL4_jEbs8IxSYkucu0fZotfAQADAgADcwADNgQ',
@@ -84,14 +81,12 @@ Erfolg kommt immer zu denen, die heute einen Schritt machen.
 
 ⚡️ Не упусти возможность изменить свою жизнь. Напиши мне прямо сейчас — и я расскажу, как это работает, и помогу сделать первые шаги к твоему новому уровню жизни 🤝.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🌟 Stell dir ein Leben vor, in dem die Arbeit dir nicht die ganze Zeit und Energie raubt, sondern im Gegenteil — dir Freiheit schenkt.
-
-Du wachst ohne Wecker auf, verbringst den Morgen mit deiner Familie, isst zu Hause zu Mittag, und abends hast du noch Energie und gute Laune für die Menschen, die dir wichtig sind. All das ist möglich, wenn dein Einkommen nicht von einem Büro und einem Chef abhängt, sondern direkt bei dir zu Hause 💻🏡.
 
 💡 Heute hast du die Möglichkeit, dir ein Einkommen aufzubauen, das es dir erlaubt, in der Nähe der Personen zu sein, die dir am wichtigsten sind. Kinder, Eltern, dein geliebter Mensch — gerade für sie lohnt es sich jetzt zu handeln und nicht auf „später“ zu warten.
 
@@ -101,14 +96,14 @@ Du wachst ohne Wecker auf, verbringst den Morgen mit deiner Familie, isst zu Hau
 
 ⚡️ Verpasse nicht die Gelegenheit, dein Leben zu verändern. Schreib mir jetzt sofort — und ich erkläre dir, wie das funktioniert, und helfe dir, die ersten Schritte zu deinem neuen Lebensniveau zu machen 🤝.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
             {
-                'time': '14:00',
+                'time': '15:53',
                 'status': 'not_in_chanel',
                 'type': 'text',
                 'media_id': '',
@@ -127,9 +122,9 @@ Du wachst ohne Wecker auf, verbringst den Morgen mit deiner Familie, isst zu Hau
 
 👉 Жми и пиши прямо сейчас — у тебя есть шанс попасть в топ-10!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⚡️ 40.000 € warten bereits auf ihre Besitzer!
@@ -144,14 +139,14 @@ Auf dem Kanal gibt es bereits einen Beitrag, dass dieser Betrag verlost wird –
 
 👉 Klick jetzt und schreibe sofort – du hast die Chance, in die Top-10 zu kommen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
 {
-                'time': '17:00',
+                'time': '15:54',
                 'status': 'not_in_chanel',
                 'type': 'photo',
                 'media_id': 'AgACAgIAAxkBAAIHXWimvjPaxoyNdX3B0mVzni3pl3sfAAL5_jEbs8IxSTC4hFvHuw2rAQADAgADcwADNgQ',
@@ -174,9 +169,9 @@ Denk daran: Wer früher anfängt, erzielt schneller Ergebnisse. Morgen könntest
 ⚡️ Schiebe dein Leben nicht „auf später“.
 👉 Schreib mir jetzt direkt, und ich gebe dir alle Informationen und helfe dir, den ersten Schritt zu deinen Ergebnissen zu machen 🤝
 
-(Link)
-(Link)
-(Link)
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -196,9 +191,9 @@ Denk daran: Wer früher anfängt, erzielt schneller Ergebnisse. Morgen könntest
 
 👉 Напиши мне прямо сейчас, и я покажу, как начать использовать технологии, которые делают богатых ещё богаче!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🚀 Wir leben in einer Ära, in der Kryptowährungen und künstliche Intelligenz die Spielregeln verändern. Während einige zögern, vermehren andere bereits mit ihrer Hilfe ihr Einkommen.  
@@ -208,9 +203,9 @@ Denk daran: Wer früher anfängt, erzielt schneller Ergebnisse. Morgen könntest
 
 👉 Schreib mir jetzt sofort, und ich zeige dir, wie du Technologien nutzen kannst, die Reiche noch reicher machen!  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -226,9 +221,9 @@ Denk daran: Wer früher anfängt, erzielt schneller Ergebnisse. Morgen könntest
 А завтра всё начнут другие, и твой шанс уйдёт.
 🔥 Хватит ждать! Напиши мне в личку и получи стратегию действий, которая может изменить твое финансовое положение.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⏳ Jeder Tag des Zögerns = verlorene Chancen.  
@@ -236,9 +231,9 @@ Du könntest bereits heute Geld verdienen, aber stattdessen schiebst du es auf �
 Und morgen werden es andere tun, und deine Chance ist weg.  
 🔥 Hör auf zu warten! Schreib mir eine private Nachricht und erhalte eine Strategien, die deine finanzielle Lage verändern kann.  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -259,9 +254,9 @@ Und morgen werden es andere tun, und deine Chance ist weg.
 
 👉 Пиши мне прямо сейчас и узнай, как занять своё место в новой команде!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⚡️ Noch ein erfolgreiches Test!
@@ -274,9 +269,9 @@ Heute wird ein neues Team aus 3 Personen gebildet. Und jeder, der diesem Team be
 
 👉 Schreib mir jetzt sofort und erfahre, wie du dir deinen Platz im neuen Team sichern kannst!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -297,9 +292,9 @@ Heute wird ein neues Team aus 3 Personen gebildet. Und jeder, der diesem Team be
 ⚡️ Не ждите идеального момента — момент идеален прямо сейчас.
 👉 Напишите мне: “Я хочу зарабатывать”, и я покажу, как подключиться к тестированию и начать получать прибыль.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🤖 Unsere einzigartige KI ist bereits bereit, für Sie Geld zu verdienen!
@@ -312,9 +307,9 @@ Je früher Sie sich anschließen, desto mehr Chancen haben Sie, zu verdienen und
 ⚡️ Warten Sie nicht auf den perfekten Moment – der Moment ist jetzt perfekt.
 👉 Schreiben Sie mir: „Ich möchte Geld verdienen“, und ich zeige Ihnen, wie Sie sich für die Testphase anmelden und anfangen können, Gewinne zu erzielen.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -333,9 +328,9 @@ Je früher Sie sich anschließen, desto mehr Chancen haben Sie, zu verdienen und
 
 ⚡️ Напишите мне ПРЯМО СЕЙЧАС и уже сегодня сможете заработать с помощью нашего ИИ!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Finde deine 40.000 €!
@@ -346,9 +341,9 @@ Schreibe mir einfach, wofür du dieses Geld ausgeben möchtest! Bald werde ich d
 
 ⚡️ Schreibe mir JETZT SOFORT und du kannst noch heute mit unserer KI Geld verdienen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -375,9 +370,9 @@ Früher dauerten solche Ergebnisse Jahre, jetzt erledigt die KI das in Stunden. 
 ⚡️ Verzögern Sie nicht!
 👉 Schreiben Sie mir jetzt, und Sie werden bald Ihre ersten Ergebnisse mit Hilfe der KI sehen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -398,9 +393,9 @@ Früher dauerten solche Ergebnisse Jahre, jetzt erledigt die KI das in Stunden. 
 
 👉 Пишите мне прямо сейчас и я покажу, как вырваться из замкнутого круга и взять свою жизнь в свои руки!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🚀 Schiebe dein Leben nicht auf — fang heute an zu handeln!
@@ -413,9 +408,9 @@ Das Warten auf den „idealen Moment“ ist eine Falle, aus der man nicht entkom
 
 👉 Schreib mir jetzt direkt und ich zeige dir, wie du aus dem Teufelskreis ausbrechen und dein Leben in die eigenen Hände nehmen kannst!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -437,9 +432,9 @@ Das Warten auf den „idealen Moment“ ist eine Falle, aus der man nicht entkom
 Я готов взять тебя за руку и провести по пути, который реально работает.
 👉 Напиши мне прямо сейчас — и твои первые шаги начнут приносить плоды.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🎯 Erfolg kommt niemals zufällig. Er gehört nur denjenigen, die den Mut haben, den ersten Schritt zu machen.  
@@ -451,9 +446,9 @@ Das Warten auf den „idealen Moment“ ist eine Falle, aus der man nicht entkom
 Ich bin bereit, dich an die Hand zu nehmen und dich auf den Weg zu führen, der wirklich funktioniert.  
 👉 Schreib mir jetzt sofort - und deine ersten Schritte werden Früchte tragen.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -469,9 +464,9 @@ Ich bin bereit, dich an die Hand zu nehmen und dich auf den Weg zu führen, der 
 ⚡️ Если хочешь вырваться из замкнутого круга — начни действовать.
 🚀 Напиши мне и получи персональный план, который поможет изменить твоё завтра.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Denk mal nach: Wie oft hast du dir gesagt „ab Montag“, „später“, „nicht jetzt“? 
@@ -479,9 +474,9 @@ Und wo bist du durch diese Worte gelandet? Dort, wo du gestern warst.
 ⚡️ Wenn du aus dem Teufelskreis ausbrechen willst — fang an zu handeln. 
 🚀 Schreib mir und erhalte einen personalisierten Plan, der dir hilft, dein Morgen zu verändern. 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -502,9 +497,9 @@ Und wo bist du durch diese Worte gelandet? Dort, wo du gestern warst.
 👉 Напишите мне сейчас, чтобы присоединиться и получить свои первые результаты!
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Das gestrige Testen war erfolgreich!
@@ -517,9 +512,9 @@ Jetzt ist das Produkt bereit für die Massenverwendung – und Sie haben die Cha
 👉 Schreiben Sie mir jetzt, um sich anzumelden und Ihre ersten Ergebnisse zu erzielen!
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -543,9 +538,9 @@ Jetzt ist das Produkt bereit für die Massenverwendung – und Sie haben die Cha
 
 Если вы готовы перестать бояться и вырваться из нищеты — пишите мне прямо сейчас!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💡 Warum es für den Staat nicht vorteilhaft ist, dass Sie wohlhabend werden?
@@ -561,9 +556,9 @@ Zweifel sind normal. Schauen Sie sich mich an: Ich lebe anders, dank der Möglic
 
 Wenn Sie bereit sind, die Angst zu überwinden und der Armut zu entfliehen – schreiben Sie mir jetzt sofort!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -584,9 +579,9 @@ Wenn Sie bereit sind, die Angst zu überwinden und der Armut zu entfliehen – s
 
 Не упускайте шанс — действуйте прямо сейчас!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ✅ 40.000 € warten auf dich!
@@ -599,9 +594,9 @@ Wenn Sie bereit sind, die Angst zu überwinden und der Armut zu entfliehen – s
 
 Verpasse nicht die Chance – handle gleich jetzt!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -622,9 +617,9 @@ Verpasse nicht die Chance – handle gleich jetzt!
 
 👉 Напиши мне и получи доступ к возможностям будущего.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💡 In der Welt gewinnen immer diejenigen, die neue Werkzeuge zuerst nutzen. Heute sind diese Werkzeuge Kryptowährung und künstliche Intelligenz. 🔥 Gemeinsam ermöglichen sie es, schneller zu verdienen als jedes alte Modell.
@@ -633,9 +628,9 @@ Verpasse nicht die Chance – handle gleich jetzt!
 
 👉 Schreib mir und erhalte Zugang zu den Möglichkeiten der Zukunft.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -651,9 +646,9 @@ Verpasse nicht die Chance – handle gleich jetzt!
 🚀 Хочешь результат? Тогда перестань бояться.
 Я помогу тебе сделать шаг — напиши прямо сейчас.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⚡️ Angst bringt nichts. Sie hält dich nur in der Armut.  
@@ -661,9 +656,9 @@ Die Reichen hatten auch Angst, aber sie haben gehandelt, und genau das hat ihnen
 🚀 Willst du Ergebnisse? Dann hör auf zu haben.  
 Ich helfe dir, einen Schritt zu machen – schreib jetzt gleich.  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -682,9 +677,9 @@ Ich helfe dir, einen Schritt zu machen – schreib jetzt gleich.
 
 👉 Напишите мне в личку — получите персональный план!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 WARUM BRINGEN IHRE ANSTRENGUNGEN KEINEN ERFOLG? 🤔  
@@ -695,9 +690,9 @@ Ich habe ein System und KI entwickelt, die jedem die Möglichkeit geben, ein neu
 
 👉 Schreiben Sie mir eine private Nachricht – Sie erhalten einen persönlichen Plan!  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -716,9 +711,9 @@ Ich habe ein System und KI entwickelt, die jedem die Möglichkeit geben, ein neu
 ⚡️ Хотите стать одним из первых?
 👉 Напишите мне в приват, и я помогу вам войти в игру и начать зарабатывать вместе!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Die Ziellinie ist bereits nah!
@@ -729,9 +724,9 @@ Was wir geschaffen haben, ist eine echte Innovation, die Ihre Vorstellung von Ge
 ⚡️ Möchten Sie einer der Ersten sein?
 👉 Schreiben Sie mir privat, und ich helfe Ihnen, ins Spiel zu kommen und gemeinsam Geld zu verdienen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -764,9 +759,9 @@ Was wir geschaffen haben, ist eine echte Innovation, die Ihre Vorstellung von Ge
 ⚡️ Erfolg kommt nicht zu denen, die warten. Er kommt zu denen, die die Chance hier und jetzt nutzen.
 🚀 SCHREIB MIR und erfahre, wie du dein Leben ändern und schon heute Geld verdienen kannst! Ich WARTE auf dich!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -784,9 +779,9 @@ Was wir geschaffen haben, ist eine echte Innovation, die Ihre Vorstellung von Ge
 
 👉 Напиши мне сегодня, чтобы завтра быть в числе первых.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Morgen wird ein besonderer Tag sein.  
@@ -796,9 +791,9 @@ Du wirst nicht nur zuschauen können, sondern tatsächlich in ein Spiel eintauch
 
 👉 Schreib mir heute, um morgen zu den Ersten zu gehören.  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -824,9 +819,9 @@ Du wirst nicht nur zuschauen können, sondern tatsächlich in ein Spiel eintauch
 
 👉ПИШИ МНЕ  и получи доступ к знаниям и инструментам, которые помогут построить твой капитал и финансовую свободу.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 WARUM VIELE MENSCHEN NICHT MIT DEM INVESTIEREN BEGINNEN? 🤔
@@ -844,9 +839,9 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
 
 👉 SCHREIBE MIR und erhalte Zugang zu Wissen und Werkzeugen, die dir helfen, dein Kapital und finanzielle Freiheit aufzubauen.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -870,9 +865,9 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
 
 🚀 Не жди!Напиши мне  СЕЙЧАС  и получи доступ к стратегии, которая поможет тебе увеличить доход с помощью ИИ и криптовалюты прямо сегодня.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Warum sind Kryptowährungen und künstliche Intelligenz die Chance, schnell und bereits jetzt Geld zu verdienen?
@@ -888,9 +883,9 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
 
 🚀 Warte nicht! Schreib mir JETZT und erhalte Zugang zu einer Strategie, die dir helfen wird, dein Einkommen sofort mit KI und Kryptowährungen zu steigern.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -912,9 +907,9 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
 Каждый день откладывая, ты теряешь шансы.
 👉 Пора менять мышление — напиши мне и узнай, как начать действовать как богатые.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💭 Der Unterschied zwischen Armen und Reichen liegt im Denken.  
@@ -926,9 +921,9 @@ Jeder Tag des Zögerns ist eine verpasste Gelegenheit, die nicht zurückkommt.
 Wenn du jeden Tag aufschiebst, verlierst du Chancen.  
 👉 Es ist Zeit, deine Denkweise zu ändern – schreib mir und erfahre, wie du handeln kannst wie die Reichen.  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -944,9 +939,9 @@ Wenn du jeden Tag aufschiebst, verlierst du Chancen.
 Богатые делают выбор действовать.
 🚀 Напиши мне прямо сейчас и сделай шаг навстречу результату.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 📌 Die einen suchen nach Ausreden, die anderen suchen nach Möglichkeiten.  
@@ -954,9 +949,9 @@ Wenn du jeden Tag aufschiebst, verlierst du Chancen.
 Reiche entscheiden sich zu handeln.  
 🚀 Schreib mir jetzt sofort und mach einen Schritt in Richtung Ergebnis.  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -988,9 +983,9 @@ Reiche entscheiden sich zu handeln.
 
 🚀 Fang noch heute an zu handeln — SCHREIBE MIR und erfahre, wie du dein Leben verändern und schon heute Geld bekommen kannst! ICH WARTE AUF DICH!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1011,9 +1006,9 @@ Reiche entscheiden sich zu handeln.
 🚀 Пиши прямо сейчас и вступай в розыгрыш!
 Твой шанс может стать победой! 🏆
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🎉 Die Verlosung ist in vollem Gange! 💸
@@ -1025,9 +1020,9 @@ Du hast noch die Chance, dir die große Summe zu sichern! 🔥 Jede Minute zähl
 🚀 Schreib jetzt gleich und nimm an der Verlosung teil!
 Deine Chance könnte der Gewinn sein! 🏆
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -1052,9 +1047,9 @@ Deine Chance könnte der Gewinn sein! 🏆
 👉 Напиши мне прямо сейчас и забери свой доступ.
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 LETZTER TAG!
@@ -1069,9 +1064,9 @@ Jetzt bin ich bereit, es dir zu übergeben und dich persönlich an die Hand zu n
 👉 Schreib mir jetzt sofort und hol dir deinen Zugang.
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1087,9 +1082,9 @@ Jetzt bin ich bereit, es dir zu übergeben und dich persönlich an die Hand zu n
 ⚡️ Побеждает всегда тот, кто действует, а не ждёт.
 🚀 Напиши мне сегодня — и завтра ты будешь уже в числе победителей.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⏳ Es wird keine weiteren Chancen geben.  
@@ -1097,9 +1092,9 @@ Heute entscheidet sich, wer auf ein neues Level aufsteigt und wer dort bleibt, w
 ⚡️ Es gewinnt immer derjenige, der handelt, nicht der, der wartet.  
 🚀 Schreib mir heute — und morgen wirst du bereits zu den Gewinnern gehören.  
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1128,9 +1123,9 @@ Wir haben alles bis ins kleinste Detail getestet. Ich habe das Ergebnis erhalten
 
 🚀 Handle jetzt sofort — ABONNIERE und schreib mir, und ich helfe dir! Das ist deine Chance, dein Leben zu verändern!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1160,9 +1155,9 @@ Wir haben alles bis ins kleinste Detail getestet. Ich habe das Ergebnis erhalten
 
 🌟 Будь готов! Завтра у тебя будет возможность, которая может изменить твою жизнь. Не упусти её!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🔥 Heute haben wir die ersten Ergebnisse bekannt gegeben – die Glücklichen haben bereits ihr Geld erhalten! 💸  
@@ -1179,9 +1174,9 @@ Ich lasse dich nicht allein – ich werde dich persönlich an die Hand nehmen un
 
 🌟 Sei bereit! Morgen hast du die Möglichkeit, die dein Leben verändern kann. Lass sie dir nicht entgehen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1212,9 +1207,9 @@ Heute beginnt ein besonderer Tag — ein Tag, der eure Zukunft verändern könnt
 🚀 Wollt ihr zu denjenigen gehören, die in die Geschichte dieses Starts eingehen?
 👉 Schreibt mir jetzt direkt eine Nachricht — und ich werde euch vom allerersten Schritt an begleiten!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1237,9 +1232,9 @@ Heute beginnt ein besonderer Tag — ein Tag, der eure Zukunft verändern könnt
 🚀 Хватит наблюдать, хватит ждать!
 👉 Срочно напиши мне в личку прямо сейчас !
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💸 Der Verdienst ist bereits hier und jetzt verfügbar! 
@@ -1254,9 +1249,9 @@ Merke dir: Erfolg kommt nicht zu den Klügsten oder den Stärksten – er kommt 
 🚀 Hör auf zu beobachten, hör auf zu warten! 
 👉 Schreib mir jetzt dringend direkt in eine Nachricht!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1327,9 +1322,9 @@ Jeder Tag des Zögerns = verpasste Gelegenheit.
 🚀 Вопрос только один: готов ли ты?
 👉 Напиши мне прямо сейчас в личку — и я проведу тебя шаг за шагом к финансовой свободе!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💡 WIE ERREICHST DU FINANZIELLE FREIHEIT DURCH KI UND KRYPTOWÄHRUNGEN? 🚀
@@ -1356,9 +1351,9 @@ Tausende von Menschen nutzen bereits die Möglichkeiten von KI und Kryptowährun
 👉 Schreib mir jetzt direkt eine Nachricht – und ich begleite dich Schritt für Schritt zur finanziellen Freiheit!
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1382,9 +1377,9 @@ Tausende von Menschen nutzen bereits die Möglichkeiten von KI und Kryptowährun
 🚀 Хочешь быть следующим, чьё видео станет примером успеха?
 👉 Напиши мне в личку прямо сейчас и начни путь, который уже приносит деньги!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🎥 Die ersten Video-Testimonials von Kunden! 💬
@@ -1400,9 +1395,9 @@ Unsere Kunden beginnen, Ergebnisse zu erzielen – und teilen diese persönlich 
 🚀 Willst du der Nächste sein, dessen Video ein Beispiel für Erfolg wird?
 👉 Schreib mir jetzt eine persönliche Nachricht und beginne den Weg, der bereits Geld bringt!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1429,9 +1424,9 @@ Unsere Kunden beginnen, Ergebnisse zu erzielen – und teilen diese persönlich 
 
 ⚡️ И помни: завтра утром я жду тебя лично, чтобы помочь стартовать. Если ты не успел сегодня — не откладывай, пиши мне прямо сейчас. Второго шанса может не быть!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 📈 Einkommen — 17.250 Euro! 💶
@@ -1450,9 +1445,9 @@ Alles begann mit einem einfachen Schritt — dem Vertrauen in das System und der
 
 ⚡️ Und denk daran: Morgen früh freue ich mich persönlich auf dich, um dir beim Start zu helfen. Wenn du es heute nicht geschafft hast — schiebe es nicht auf, schreib mir jetzt sofort. Eine zweite Chance könnte es nicht geben!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1475,9 +1470,9 @@ Alles begann mit einem einfachen Schritt — dem Vertrauen in das System und der
 🚀 Хотите быть в числе тех, кто войдёт в историю этого запуска?
 👉 Напишите мне прямо сейчас в личку — и я проведу вас за руку с самого старта!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🌅 Der Morgen ist gekommen — es ist Zeit zu handeln! ☕️
@@ -1492,9 +1487,9 @@ Heute beginnt ein besonderer Tag — ein Tag, der eure Zukunft verändern kann. 
 🚀 Wollt ihr zu denjenigen gehören, die Geschichte bei diesem Launch schreiben?
 👉 Schreibt mir jetzt direkt eine Nachricht — und ich begleite euch von Anfang an! 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1517,9 +1512,9 @@ Heute beginnt ein besonderer Tag — ein Tag, der eure Zukunft verändern kann. 
 🚀 Хватит наблюдать, хватит ждать!
 👉 Срочно напиши мне в личку прямо сейчас !
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💸 Verdiene jetzt und hier!
@@ -1534,9 +1529,9 @@ Denk daran: Der Erfolg kommt nicht zu den Klügsten oder Stärksten — er kommt
 🚀 Genug beobachtet, genug gewartet!
 👉 Schreib mir sofort jetzt eine private Nachricht!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1607,9 +1602,9 @@ Jeder Tag des Zögerns = verpasste Gelegenheit.
 🚀 Вопрос только один: готов ли ты?
 👉 Напиши мне прямо сейчас в личку — и я проведу тебя шаг за шагом к финансовой свободе!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💡 WIE ERREICHST DU FINANZIELLE FREIHEIT DURCH KI UND KRYPTOWÄHRUNGEN? 🚀
@@ -1636,9 +1631,9 @@ Tausende von Menschen nutzen bereits die Möglichkeiten von KI und Kryptowährun
 👉 Schreib mir jetzt direkt eine Nachricht – und ich begleite dich Schritt für Schritt zur finanziellen Freiheit!
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1662,9 +1657,9 @@ Tausende von Menschen nutzen bereits die Möglichkeiten von KI und Kryptowährun
 🚀 Хочешь быть следующим, чьё видео станет примером успеха?
 👉 Напиши мне в личку прямо сейчас и начни путь, который уже приносит деньги!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 🎥 Die ersten Video-Testimonials von Kunden! 💬
@@ -1680,9 +1675,9 @@ Unsere Kunden beginnen, Ergebnisse zu erzielen – und teilen diese persönlich 
 🚀 Willst du der Nächste sein, dessen Video ein Beispiel für Erfolg wird?
 👉 Schreib mir jetzt eine persönliche Nachricht und beginne den Weg, der bereits Geld bringt!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1709,9 +1704,9 @@ Unsere Kunden beginnen, Ergebnisse zu erzielen – und teilen diese persönlich 
 
 ⚡️ И помни: завтра утром я жду тебя лично, чтобы помочь стартовать. Если ты не успел сегодня — не откладывай, пиши мне прямо сейчас. Второго шанса может не быть!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 📈 Einkommen — 17.250 Euro! 💶
@@ -1730,9 +1725,9 @@ Alles begann mit einem einfachen Schritt — dem Vertrauen in das System und der
 
 ⚡️ Und denk daran: Morgen früh freue ich mich persönlich auf dich, um dir beim Start zu helfen. Wenn du es heute nicht geschafft hast — schiebe es nicht auf, schreib mir jetzt sofort. Eine zweite Chance könnte es nicht geben!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1766,9 +1761,9 @@ Keine komplizierten Fähigkeiten, keine überflüssigen Erwartungen — nur ein 
 
 🚀 Schiebe es nicht auf, schreib mir jetzt gleich — und ich helfe dir, schon heute dein erstes Geld zu verdienen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1791,9 +1786,9 @@ Keine komplizierten Fähigkeiten, keine überflüssigen Erwartungen — nur ein 
 🚀 Запомни: успех приходит к тем, кто действует, а не оправдывается!
 👉 Пиши мне в личку прямо сейчас, и я покажу тебе, как превратить твоё «нет денег» в стабильный доход.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💭 Hast du kein Geld?  
@@ -1808,9 +1803,9 @@ Jetzt musst du nur noch Entschlossenheit zeigen.
 🚀 Denk daran: Erfolg kommt zu denen, die handeln, und nicht zu denen, die sich rechtfertigen!  
 👉 Schreib mir jetzt direkt, und ich zeige dir, wie du dein „kein Geld“ in ein stabiles Einkommen verwandeln kannst.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1840,9 +1835,9 @@ Jetzt musst du nur noch Entschlossenheit zeigen.
 👉 Пишите в личные сообщения — и сделайте первый шаг к финансовой свободе уже сегодня! 📩
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 📈 Einkommen — 17.250 Euro! 💶
@@ -1863,9 +1858,9 @@ Ich helfe Ihnen, diesen Weg schneller zu gehen, denn ich kenne alle Schritte und
 🚀 Ihr Weg zu einem neuen Leben beginnt jetzt.
 👉 Schreiben Sie mir eine persönliche Nachricht — und machen Sie noch heute den ersten Schritt zur finanziellen Freiheit! 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1897,9 +1892,9 @@ Keine komplizierten Fähigkeiten, keine überflüssigen Erwartungen — nur ein 
 
 🚀 Schiebe es nicht auf, schreib mir jetzt gleich — und ich helfe dir, schon heute dein erstes Geld zu verdienen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1922,9 +1917,9 @@ Keine komplizierten Fähigkeiten, keine überflüssigen Erwartungen — nur ein 
 🚀 Запомни: успех приходит к тем, кто действует, а не оправдывается!
 👉 Пиши мне в личку прямо сейчас, и я покажу тебе, как превратить твоё «нет денег» в стабильный доход.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💭 Hast du kein Geld?  
@@ -1939,9 +1934,9 @@ Jetzt musst du nur noch Entschlossenheit zeigen.
 🚀 Denk daran: Erfolg kommt zu denen, die handeln, und nicht zu denen, die sich rechtfertigen!  
 👉 Schreib mir jetzt direkt, und ich zeige dir, wie du dein „kein Geld“ in ein stabiles Einkommen verwandeln kannst.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -1971,9 +1966,9 @@ Jetzt musst du nur noch Entschlossenheit zeigen.
 👉 Пишите в личные сообщения — и сделайте первый шаг к финансовой свободе уже сегодня! 📩
 
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 📈 Einkommen — 17.250 Euro! 💶
@@ -1994,9 +1989,9 @@ Ich helfe Ihnen, diesen Weg schneller zu gehen, denn ich kenne alle Schritte und
 🚀 Ihr Weg zu einem neuen Leben beginnt jetzt.
 👉 Schreiben Sie mir eine persönliche Nachricht — und machen Sie noch heute den ersten Schritt zur finanziellen Freiheit! 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -2037,9 +2032,9 @@ Du musst nur aufhören, Ausreden zu finden, und anfangen zu handeln.
 
 🚀 Schreib mir jetzt sofort, und ich zeige dir den Weg, wie Arme reich werden.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2064,9 +2059,9 @@ Du musst nur aufhören, Ausreden zu finden, und anfangen zu handeln.
 
 📩 Пиши мне в личные сообщения — и я лично помогу тебе выйти на доход!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💸 Verdienst zeigt verrückte Ergebnisse!
@@ -2083,9 +2078,9 @@ Du wirst dein Geld erhalten, du wirst das Ergebnis sehen, und vielleicht wird de
 
 📩 Schreib mir eine private Nachricht – und ich werde dir persönlich helfen, ein Einkommen zu erzielen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2124,9 +2119,9 @@ Du musst nur aufhören, Ausreden zu finden, und anfangen zu handeln.
 
 🚀 Schreib mir jetzt sofort, und ich zeige dir den Weg, wie Arme reich werden.
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2151,9 +2146,9 @@ Du musst nur aufhören, Ausreden zu finden, und anfangen zu handeln.
 
 📩 Пиши мне в личные сообщения — и я лично помогу тебе выйти на доход!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💸 Verdienst zeigt verrückte Ergebnisse!
@@ -2170,9 +2165,9 @@ Du wirst dein Geld erhalten, du wirst das Ergebnis sehen, und vielleicht wird de
 
 📩 Schreib mir eine private Nachricht – und ich werde dir persönlich helfen, ein Einkommen zu erzielen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -2201,9 +2196,9 @@ Jeden Tag erhalte ich Dutzende von Nachrichten von denen, die bereit sind zu han
 
 🚀 Willst du zu denen gehören, die morgen mit ihren Einnahmen prahlen? Dann schreib mir sofort – und ich helfe dir, dein Einkommen zu starten! 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2223,9 +2218,9 @@ Jeden Tag erhalte ich Dutzende von Nachrichten von denen, die bereit sind zu han
 🚀 Тогда хватит оправдываться, просто напиши мне в личку.
 Твои первые деньги могут прийти уже сегодня. 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💸 Kein Geld? Genau deshalb musst du jetzt anfangen!
@@ -2237,9 +2232,9 @@ Möchtest du aufhören, jeden Cent zu zählen und frei leben?
 🚀 Dann genug der Ausreden, schreib mir einfach privat.
 Dein erstes Geld könnte schon heute kommen. 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2266,9 +2261,9 @@ Jeden Tag erhalte ich Dutzende von Nachrichten von denen, die bereit sind zu han
 
 🚀 Willst du zu denen gehören, die morgen mit ihren Einnahmen prahlen? Dann schreib mir sofort – und ich helfe dir, dein Einkommen zu starten! 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2288,9 +2283,9 @@ Jeden Tag erhalte ich Dutzende von Nachrichten von denen, die bereit sind zu han
 🚀 Тогда хватит оправдываться, просто напиши мне в личку.
 Твои первые деньги могут прийти уже сегодня. 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 💸 Kein Geld? Genau deshalb musst du jetzt anfangen!
@@ -2302,9 +2297,9 @@ Möchtest du aufhören, jeden Cent zu zählen und frei leben?
 🚀 Dann genug der Ausreden, schreib mir einfach privat.
 Dein erstes Geld könnte schon heute kommen. 📩
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }
@@ -2326,9 +2321,9 @@ Dein erstes Geld könnte schon heute kommen. 📩
 Если ты реально хочешь жить по-другому — время найдётся.
 ⚡️ Пиши мне прямо сейчас, и я помогу тебе запустить заработок уже сегодня!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⏰ Keine Zeit? Denk mal nach: Du verbrauchst Stunden mit Arbeit, die dich niemals reich machen wird. Hier arbeitet KI für dich – 24/7, ohne dein Zutun!
@@ -2339,9 +2334,9 @@ Dein erstes Geld könnte schon heute kommen. 📩
 Wenn du wirklich anders leben möchtest – es wird sich Zeit finden.  
 ⚡️ Schreib mir jetzt sofort, und ich helfe dir, noch heute mit dem Geldverdienen zu starten!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2361,9 +2356,9 @@ Wenn du wirklich anders leben möchtest – es wird sich Zeit finden.
 
 🚀 Напиши мне сейчас — и я докажу тебе результат делом, а не словами!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ❓ Hast du Angst, dass es ein Betrug ist?  
@@ -2375,9 +2370,9 @@ Dann schau dir die Dutzenden von Menschen an, die bereits verdienen und Bewertun
 
 🚀 Schreibe mir jetzt – und ich werde dir den Erfolg durch Taten, nicht durch Worte beweisen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2397,9 +2392,9 @@ Dann schau dir die Dutzenden von Menschen an, die bereits verdienen und Bewertun
 Если ты реально хочешь жить по-другому — время найдётся.
 ⚡️ Пиши мне прямо сейчас, и я помогу тебе запустить заработок уже сегодня!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ⏰ Keine Zeit? Denk mal nach: Du verbrauchst Stunden mit Arbeit, die dich niemals reich machen wird. Hier arbeitet KI für dich – 24/7, ohne dein Zutun!
@@ -2410,9 +2405,9 @@ Dann schau dir die Dutzenden von Menschen an, die bereits verdienen und Bewertun
 Wenn du wirklich anders leben möchtest – es wird sich Zeit finden.  
 ⚡️ Schreib mir jetzt sofort, und ich helfe dir, noch heute mit dem Geldverdienen zu starten!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             },
@@ -2432,9 +2427,9 @@ Wenn du wirklich anders leben möchtest – es wird sich Zeit finden.
 
 🚀 Напиши мне сейчас — и я докажу тебе результат делом, а не словами!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 ''',
                     'de': f'''
 ❓ Hast du Angst, dass es ein Betrug ist?  
@@ -2446,9 +2441,9 @@ Dann schau dir die Dutzenden von Menschen an, die bereits verdienen und Bewertun
 
 🚀 Schreibe mir jetzt – und ich werde dir den Erfolg durch Taten, nicht durch Worte beweisen!
 
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
-{SPONSOR_CHANNEL_LINK.split('?')[0]}
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
+🟢<a href="{SPONSOR_CHANNEL_LINK.split('?')[0]}">KLICKE HIER</a>
 '''
                 }
             }

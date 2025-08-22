@@ -13,6 +13,7 @@ from config import SPONSOR_CHANNEL_ID, LOCALIZATION_LANG, NUMBER_GIFT_7_8, SPONS
 from db.utils import get_user_by_id, delete_messages, update_user
 from keyboard import create_kb
 from lexicon import lexicon_dct
+from main import logger
 
 router: Router = Router()
 
@@ -23,6 +24,11 @@ async def handle_chat_member_update(update: ChatMemberUpdated):
         return
     user_id = update.new_chat_member.user.id
     user_dct = await get_user_by_id(user_id)
+
+    if not user_dct:
+        print(f"User {user_id} not found in database")
+        return
+
     if update.old_chat_member.status == "left" and update.new_chat_member.status == "member":
 
         async with aiohttp.ClientSession() as session:

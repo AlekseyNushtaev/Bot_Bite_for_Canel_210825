@@ -221,6 +221,9 @@ async def get_all_users_unblock(status: str) -> dict:
 
 def format_time_remaining(target_datetime):
     now = datetime.datetime.now(TIMEZONE)
+    # Если target_datetime наивный (без временной зоны), преобразуем его в aware
+    if target_datetime.tzinfo is None:
+        target_datetime = TIMEZONE.localize(target_datetime)
     if target_datetime <= now:
         return "0 00:00:00"
 

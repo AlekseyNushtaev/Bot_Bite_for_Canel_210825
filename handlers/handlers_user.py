@@ -134,7 +134,7 @@ async def look_video(callback: types.CallbackQuery):
         time_stop = user_dct['time_stop']
         if time_stop.tzinfo is None:
             time_stop = time_stop.replace(tzinfo=TIMEZONE)
-        if datetime.datetime.now(TIMEZONE) > user_dct['time_stop']:
+        if datetime.datetime.now(TIMEZONE) > time_stop:
             sent_message = await callback.message.answer(
                 text=lexicon_dct[LOCALIZATION_LANG]['no_video_text'],
                 reply_markup=create_kb(1, back_to_main=lexicon_dct[LOCALIZATION_LANG]['main_menu_button']))
@@ -365,7 +365,7 @@ async def profile(callback: types.CallbackQuery):
                                paypal=lexicon_dct[LOCALIZATION_LANG]['paypal_button'],
                                binance=lexicon_dct[LOCALIZATION_LANG]['binance_button'],
                                card=lexicon_dct[LOCALIZATION_LANG]['card_button'],
-                               back_to_main=lexicon_dct[LOCALIZATION_LANG]['back_button']))
+                               back_to_main_vivod=lexicon_dct[LOCALIZATION_LANG]['back_button']))
     await update_messages_to_del(callback.from_user.id, str(sent_message.message_id))
 
 

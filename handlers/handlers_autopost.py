@@ -10,6 +10,7 @@ from bot import bot
 from config import ADMIN_IDS, AUTO_PUSH_RUNNING, LOCALIZATION_LANG, TIMEZONE, AUTO_PUSH_DAY, SPONSOR_CHANNEL_LINK
 from db.utils import get_all_users_unblock, pin_message
 from keyboard import kb_button
+from lexicon import lexicon_dct
 from lexicon_autopost import dct_autopost
 
 router = Router()
@@ -136,7 +137,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
@@ -151,7 +152,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
@@ -169,7 +170,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
@@ -184,7 +185,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
@@ -202,7 +203,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
@@ -220,7 +221,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
@@ -240,7 +241,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_in[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_in[user_id].replace('_', '.'))
                         media_group = [
@@ -268,7 +269,7 @@ async def send_auto_message(message_info: dict):
                         break
                     try:
                         keyboard = kb_button(
-                            '✅ Mein Kanal',
+                            lexicon_dct[LOCALIZATION_LANG]['button_autopost'],
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         media_group = [

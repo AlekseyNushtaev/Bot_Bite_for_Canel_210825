@@ -156,7 +156,7 @@ async def send_auto_message(message_info: dict):
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_message(user_id, text, parse_mode='HTML', reply_markup=keyboard)
-                        count_in += 1
+                        count_out += 1
                         await asyncio.sleep(0.1)
                         await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
@@ -189,7 +189,7 @@ async def send_auto_message(message_info: dict):
                             SPONSOR_CHANNEL_LINK.replace('{{sub_id}}', users_out[user_id].replace('_', '.')))
                         text = message_info['text'][LOCALIZATION_LANG](users_out[user_id].replace('_', '.'))
                         sent_message = await bot.send_photo(user_id, media_id, caption=text, parse_mode='HTML', reply_markup=keyboard)
-                        count_in += 1
+                        count_out += 1
                         await asyncio.sleep(0.1)
                         await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
@@ -228,7 +228,7 @@ async def send_auto_message(message_info: dict):
                         await pin_message(user_id, sent_message.message_id)
                         await asyncio.sleep(0.1)
                         sent_message = await bot.send_video_note(user_id, media_id)
-                        count_in += 1
+                        count_out += 1
                         await asyncio.sleep(0.1)
                         await pin_message(user_id, sent_message.message_id)
                     except Exception as e:
